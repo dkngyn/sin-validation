@@ -1,0 +1,10 @@
+services:
+  preview:
+    container_name: elective-sin-validation
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: preview
+    ports:
+      - 8080:8080

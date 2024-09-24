@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import SinInput from './components/SinInput.vue'
+
 </script>
 
 <template>
-  <div class="app">
-    <SinInput/>
+  <div class="sin-input">
+    sin input placeholder
   </div>
 </template>
 
 <style scoped>
+
 </style>
