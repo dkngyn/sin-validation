@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import SinInput from './components/SinInput.vue'
+import SinValidationForm from './components/SinValidationForm.vue'
 </script>
 
 <template>
   <div class="app container max-w-sm mx-auto">
-    <SinInput/>
+    <SinValidationForm/>
   </div>
 </template>
 
