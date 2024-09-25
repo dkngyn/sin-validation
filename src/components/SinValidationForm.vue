@@ -29,7 +29,7 @@ const handleSubmit = (_: Event) => {
       <div class="label">
         <span class="label-text">Social insurance number</span>
       </div>
-      <div class="input input-bordered font-mono flex items-center gap-2"
+      <div class="sin-input input input-bordered font-mono flex items-center gap-2"
            :class="{'input-success': isSubmitted && isValid, 'input-error': isSubmitted && !isValid}">
         <input
             @input="handleInput"
