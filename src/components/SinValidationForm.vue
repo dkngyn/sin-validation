@@ -37,7 +37,7 @@ const handleSubmit = (_: Event) => {
             type="text"
             pattern="[0-9]*"
             inputmode="numeric"
-            placeholder="••• ••• •••"
+            placeholder="046 000 000"
             class="sin-input-digit"
         />
         <svg v-show="isSubmitted" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"
